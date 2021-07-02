@@ -14,6 +14,9 @@
 		2812080D2684F31A009B06DA /* Car.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2812080B2684F31A009B06DA /* Car.xcdatamodeld */; };
 		2812080F2684F31B009B06DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2812080E2684F31B009B06DA /* Assets.xcassets */; };
 		281208122684F31B009B06DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281208102684F31B009B06DA /* LaunchScreen.storyboard */; };
+		2840B172268CD44100A4AD61 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2840B171268CD44100A4AD61 /* data.plist */; };
+		2840B173268CD80500A4AD61 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C3B6C268A460A002A8912 /* Car+CoreDataClass.swift */; };
+		2840B174268CD80500A4AD61 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C3B6D268A460A002A8912 /* Car+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2812080E2684F31B009B06DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281208112684F31B009B06DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		281208132684F31B009B06DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2840B171268CD44100A4AD61 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		286C3B6C268A460A002A8912 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		286C3B6D268A460A002A8912 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +70,11 @@
 				281208082684F31A009B06DA /* Main.storyboard */,
 				2812080E2684F31B009B06DA /* Assets.xcassets */,
 				281208102684F31B009B06DA /* LaunchScreen.storyboard */,
+				2840B171268CD44100A4AD61 /* data.plist */,
 				281208132684F31B009B06DA /* Info.plist */,
 				2812080B2684F31A009B06DA /* Car.xcdatamodeld */,
+				286C3B6C268A460A002A8912 /* Car+CoreDataClass.swift */,
+				286C3B6D268A460A002A8912 /* Car+CoreDataProperties.swift */,
 			);
 			path = Car;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 			files = (
 				281208122684F31B009B06DA /* LaunchScreen.storyboard in Resources */,
 				2812080F2684F31B009B06DA /* Assets.xcassets in Resources */,
+				2840B172268CD44100A4AD61 /* data.plist in Resources */,
 				2812080A2684F31A009B06DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +153,8 @@
 				281208072684F31A009B06DA /* ViewController.swift in Sources */,
 				281208032684F31A009B06DA /* AppDelegate.swift in Sources */,
 				2812080D2684F31A009B06DA /* Car.xcdatamodeld in Sources */,
+				2840B173268CD80500A4AD61 /* Car+CoreDataClass.swift in Sources */,
+				2840B174268CD80500A4AD61 /* Car+CoreDataProperties.swift in Sources */,
 				281208052684F31A009B06DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
